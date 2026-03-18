@@ -15,40 +15,65 @@
     <div >   
         <P> We provide the many type of coffee robusta and arabica online. you just buy it enjoy cat clip and  wait then we will deliver to you house</P>
        <hr/>
-        <table>
-        
-                <th> COFFEE_PICTURE  </th>
-                <th>  COFFEE_NAME </th>
-                <th>  PRICE </th>
-                <th></th>
-            </tr>
+       <form action="cart.html" method="get">
+        <table border="2" style="text-align: center; width: 50%;">
+            <thead>
             <tr>
-                <th><img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="150" height="250"></th>
-                <th>ETHIOPIA</th>
-                <th>200฿</th>
-                <th> BUY</th>
+                <th style="width: 50%;"> COFFEE_PICTURE  </th>
+                <th style="width: 20%;">  COFFEE_NAME </th>
+                <th style="width: 20%;">  PRICE </th>
+                <th style="width: 10%;"> Quantity </th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td style="height:20% ; width: 50%;"><img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"width="100%"></td>
+                <td>ETHIOPIA</td>
+                <td>200฿</td>
+                <td><label for="P1.quantity">Quantity </label>
+                    <input type="number" max="100" min="0" name="P1.quantity" id="quantity1" value="0"/> 
+                    <button type="button" name="add" id="add" >ADD</button>
+                </td>
             </tr>
                         <tr>
-                <th><img src="https://plus.unsplash.com/premium_photo-1673545518947-ddf3240090b1?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="150" height="250"></th>
-                <th>COLUMBIA</th>
-                <th>200฿</th>
-                <th> BUY</th>
+                <td style="height:20% ; width: 50%;"><img src="https://plus.unsplash.com/premium_photo-1673545518947-ddf3240090b1?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"  width="100%"></td>
+                <td>COLUMBIA</td>
+                <td>200฿</td>
+                <td><label FOR="P2.quantity">Quantity </label>
+                    <input type="number" max="100" min="0" name="P2.quantity" id="quantity2" value="0"/> 
+                    <button type="button" name="add" id="add" >ADD</button>
+                </td>
             </tr>
                  </tr>
                         <tr>
-                <th><img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=1937&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="150" height="100"></th>
-                <th>CHAINMAI</th>
-                <th>200฿</th>
-                <th> BUY</th>
+                <td style="height:20% ; width: 50%;"><img src="https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=1937&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="100%"></td>
+                <td>CHAINMAI</td>
+                <td>200฿</td>
+                <td><label name="P3.quantity">Quantity </label>
+                    <input type="number" max="100" min="0" name="P3.quantity" id="quantity3" value="0"/> 
+                    <button type="button" name="add" id="add" >ADD</button>
+                </td>
             </tr>
                  </tr>
                         <tr>
-                <th><img src="https://images.unsplash.com/photo-1610632380989-680fe40816c6?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="175" height="250"></th>
-                <th>BRAZIL</th>
-                <th>200฿</th>
-                <th> BUY</th>
+                <td style="height:20% ; width: 50%;"><img src="https://images.unsplash.com/photo-1610632380989-680fe40816c6?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="100%"></td>
+                <td>BRAZIL</td>
+                <td>200฿</td>
+                <td><label name="P4.quantity">Quantity </label>
+                    <input type="number" max="100" min="0" name="P4.quantity" id="quantity4" value="0"/> 
+                    <button type="button" name="add" id="add" >ADD</button>
+                </td>
             </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="4" style="text-align: center;">
+                    <button type="submit">SUBMIT</button>
+                </td>
+            </tr>
+            </tfoot>
         </table>
+    </form>
     </div>
     <hr/>
     <div>
