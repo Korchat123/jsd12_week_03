@@ -82,7 +82,8 @@ function bTree(Q,total,Pmax=total,P=Math.ceil(total/2)){
     }
 return;
 }
-////// we include 0 
+////// for interface in put out put and call function 
+
 rl.question("Enter size of data:",function(tempInput){
         const sizeData=parseInt(tempInput);
         rl.question("find BinartTreeNumber:",function(secInput){
